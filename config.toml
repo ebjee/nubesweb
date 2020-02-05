@@ -43,8 +43,8 @@ paginate = 10
 
 # Top bar social links menu
 #
-#[[menu.topbar]]
-#    enable = false
+[[menu.topbar]]
+    enable = false
 
 [[menu.topbar]]
     weight = 1
