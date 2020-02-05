@@ -6,12 +6,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo -t hugo-universal-theme
 
 # Go To Public folder
-cd public
+cd ./public
 # Add changes to git.
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
+msg="dir public rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
@@ -21,10 +21,10 @@ git commit -m "$msg"
 git push origin master
 
 # Come Back up to the Project Root
-cd ..
+cd ../
 
 
-# blog 저장소 Commit & Push
+# 저장소 Commit & Push
 git add .
 
 msg="rebuilding site `date`"
