@@ -6,6 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo -t hugo-universal-theme
 
 # Go To Public folder
+# shellcheck disable=SC2164
 cd ./public
 # Add changes to git.
 git add .
