@@ -8,6 +8,8 @@ hugo -t hugo-universal-theme
 # Go To Public folder
 # shellcheck disable=SC2164
 cd ./public
+# 원격 저장소와 로컬 저장소의 상태를 동일하게 만듬
+git pull
 # Add changes to git.
 git add .
 
