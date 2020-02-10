@@ -110,8 +110,8 @@ paginate = 10
 
 # public dir 기준?
 
-    logo = "img/nubes-log-sm.png"
-    logo_small = "img/nubes-log-sm.png"
+    logo = "img/nubes-log-ori.png"
+    logo_small = "img/nubes-log-ori.png"
     address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River
