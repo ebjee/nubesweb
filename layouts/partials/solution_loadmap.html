@@ -1,0 +1,39 @@
+{{ if isset .Site.Params "solution_loadmap" }}
+{{ if .Site.Params.solution_loadmap.enable }}
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>{{ .Site.Params.solution_loadmap.title | markdownify }}</h2>
+            </div>
+
+            <p class="lead">
+                {{ .Site.Params.solution_loadmap.subtitle | markdownify }}
+            </p>
+
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <br>
+                        <ul >
+                            <li style="font-family: 'Roboto', Helvetica, Arial, sans-serif;font-size: 1.8rem"><b>2020년 전반기 :</b> 클라우드 가속 MEC 플랫폼 테스트베드</li>
+                            <li style="font-size: 1.8rem"><b>2020년 후반기 :</b> 기업형 Private 5G 테스트베드</li>
+                            <li style="font-size: 1.8rem"><b>2021년 전반기 :</b> AI 서비스 제공</li>
+                            <li style="font-size: 1.8rem"><b>2022년 후반기 :</b> 확장 Federation Service</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-7 right">
+                        <img class="img-responsive" src="img/solution_loadmap.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
