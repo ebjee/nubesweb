@@ -73,6 +73,7 @@ _________________________________________________________ -->
     <div class="container">
         <div class="col-md-12">
             {{ if isset .Site.Params "copyright" }}
+            <p>{{ .Site.Params.address_copy }}</p>
             <p class="pull-center">{{ .Site.Params.copyright | safeHTML }}</p>
             {{ end }}
             <p class="pull-center">

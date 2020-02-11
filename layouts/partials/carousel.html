@@ -5,13 +5,13 @@
     <div class="home-carousel">
         <div class="dark-mask"></div>
         <div class="container">
-            <div class="homepage owl-carousel" style="padding-top:0;height:600px;">
+            <div class="homepage owl-carousel" style="padding-top:0;height:620px;">
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
                         {{ if eq .weight 1 }}
-                        <div class="col-sm-12">
-                            <h2>{{ .title }}</h2>
+                        <div class="col-sm-12" style="padding-top: 15%">
+                            <p style="font-size: 5rem;">{{ .title }}</p>
                             {{ .description | safeHTML }}
                         </div>
                         {{ else if eq .weight 2 }}

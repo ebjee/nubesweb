@@ -113,6 +113,7 @@ paginate = 10
 
     logo = "img/nubes-log-sm.png"
     logo_small = "img/nubes-log-ori-sm.png"
+    address_copy = "06253 310, Gangnam-daero, Gangnam-gu, Seoul, Republic of Korea 1510"
     address = """<p class="text-uppercase">06253 310, Gangnam-daero, Gangnam-gu, Seoul, Republic of Korea
         <br>1510
         <br>
