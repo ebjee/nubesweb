@@ -2,7 +2,7 @@
 {{ if .Site.Params.see_more.enable }}
 <section class="bar background-image-fixed-3 no-mb color-white text-center">
     <div class="dark-mask"></div>
-    <div class="container">
+    <div class="container">title
         <div class="row">
             <div class="col-md-12">
                 <div class="icon icon-lg"><i class="{{ .Site.Params.see_more.icon }}"></i>
@@ -11,7 +11,7 @@
                 <p class="lead">{{ .Site.Params.see_more.subtitle | markdownify }}</p>
                 <p class="text-center">
                     {{ with .Site.Params.see_more.link_url }}
-                    <a href="mailto:ebjee@nubes-bridge.com" class="btn btn-template-transparent-black btn-lg">
+                    <a href="{{ . }}" class="btn btn-template-transparent-black btn-lg">
                     {{ end }}
                         {{ with .Site.Params.see_more.link_text }}
                         {{ . | markdownify }}
