@@ -67,6 +67,31 @@
     }
 }
 
+@media (max-width: 991px) {
+    .home-carousel .owl-carousel .carousel-height {
+        padding-top: 0;
+        height: 400px;
+    }
+
+    .home-carousel ul, .home-carousel p.carousel-title {
+        font-size: 2.5rem;
+    }
+
+    .main-text-dec {
+        font-size: 1.3rem;
+    }
+
+    .carousel-img {
+        height: 250px;
+    }
+
+    .main-title-sub span {
+        font-size: 2.2rem;
+    }
+}
+
+
+
 
 /*jeeeunbeen css modify */
 
