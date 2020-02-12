@@ -5,18 +5,19 @@
     <div class="home-carousel">
         <div class="dark-mask"></div>
         <div class="container">
-            <div class="homepage owl-carousel" style="padding-top:0;height:620px;">
+            <div class="homepage owl-carousel carousel-height" style="padding-top:0;">
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
                         {{ if eq .weight 1 }}
                         <div class="col-sm-12" style="padding-top: 15%">
-                            <p style="font-size: 5rem;">{{ .title }}</p>
+                            <p class="carousel-title">{{ .title }}</p>
                             {{ .description | safeHTML }}
                         </div>
                         {{ else if eq .weight 2 }}
                         <div class="col-sm-12">
-                            <img class="img-responsive" src="{{ .image }}" alt="" style="display: block; margin: 0 auto;max-width:100%; max-height:100%;vertical-align:middle;width:auto;height:550px;">
+                            <!--<img class="img-responsive" src="{{ .image }}" alt="" class="carousel-img">-->
+                            <img class="carousel-img" src="{{ .image }}" alt="">
                         </div>
                         {{ end }}
                     </div>
