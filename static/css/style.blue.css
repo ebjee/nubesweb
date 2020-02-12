@@ -23,6 +23,27 @@
     height: 550px;
 }
 
+.main-title-sub {
+    font-size: 3.0rem;
+    display: inline-block;
+    border-bottom: solid 5px #467fbf;
+    line-height: 1.1;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.main-title-sub span {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 480px) {
     .home-carousel .owl-carousel .carousel-height {
         padding-top: 0;
@@ -39,6 +60,10 @@
 
     .carousel-img {
         height: 250px;
+    }
+
+    .main-title-sub span {
+        font-size: 2.2rem;
     }
 }
 
